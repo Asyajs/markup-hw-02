@@ -1,11 +1,30 @@
-body{
+body {
   background: #fff;
   color: #212121;
 }
 
+ul {
+  list-style: none;
+}
 
 /* цвет основного текста  #212121;
 */
 /* вторичный цвет текста * #757575/
 /* белый # #ffffff
 /* акцент 2196F3 */
+.logo {
+  color: #212121;
+}
+
+/* site-nav */
+.site-nav a {
+  color: #2196F3;
+}
+
+.site-nav a:hover,
+.site-nav a:focus {
+  color: #212121;
+}
+.section-title{
+  color: #212121;
+}
