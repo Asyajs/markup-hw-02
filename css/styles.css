@@ -1,6 +1,13 @@
+:root{
+  --primary-text-color: rgba(117, 117, 117, 1);
+  ;
+  --title-text-color:#212121;
+  --accent-color:#2196F3;
+ 
+}
 body {
   background: #fff;
-  color: #212121;
+  color:var(--primary-text-color);
 }
 
 ul {
@@ -10,12 +17,14 @@ ul {
 /* цвет основного текста  #212121;
 */
 /* вторичный цвет текста * #757575/
-/* белый # #ffffff
+/* белый # #ffffff */
 /* акцент 2196F3 */
 .logo {
-  color: #212121;
+  color:var(--title-text-color);
 }
-
+.logo:hover{
+color: var(--accent-color);
+}
 /* site-nav */
 .site-nav a {
   color: #2196F3;
@@ -23,12 +32,24 @@ ul {
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #212121;
+  color:var(--title-text-color);
+}
+.inform a{
+  color: #2196F3;
+}
+.inform a:hover,
+.inform a:focus {
+  color:var(--title-text-color);
 }
 .section-title{
-  color: #212121;
+  color:var(--title-text-color);
 }
 /* feature */
 .feature .section-title {
-  color: #212121;
+  color:var(--title-text-color);
+}
+/* button*/
+button {
+  color: #FFFFFF;
+  background: #2196F3;
 }
