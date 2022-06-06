@@ -22,6 +22,14 @@ body {
   font-style: normal;
   letter-spacing: 0.03em;
 }
+/* top line bg */
+.page-header{ 
+  position: absolute;
+  width: 1600px;
+  height: 80px;
+  left: 0px;
+  top: 0px;
+}
 
 ul {
   list-style: none;
@@ -61,7 +69,14 @@ a {
 .site-nav-link:hover {
   color: var(--accent-color);
 }
-
+.content {
+  position: absolute;
+width: 1600px;
+height: 600px;
+left: 0px;
+top: 80px;
+background:var(--footer-bg-color);
+}
 .main-section {
   background-color: var(--footer-bg-color)
 }
@@ -74,4 +89,37 @@ a {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--main-bg-color);
+}
+
+button {
+  position: absolute;
+width: 200px;
+height: 50px;
+left: 700px;
+top: 430px;
+background:var(--accent-color);
+}
+
+.section-hang {
+  position: absolute;
+width: 1170px;
+height: 99px;
+left: 215px;
+top: 776px;
+}
+
+.section-work {
+  position: absolute;
+width: 1170px;
+height: 386px;
+left: 215px;
+top: 969px;
+}
+
+.section-footer {
+  position: absolute;
+width: 1600px;
+height: 648px;
+left: 0px;
+top: 1449px;
 }
