@@ -1,10 +1,17 @@
+
+/* цвет основного текста  #212121;
+*/
+/* вторичный цвет текста * #757575/
+/* белый # #ffffff */
+/* акцент 2196F3 */
 :root{
   --primary-text-color: rgba(117, 117, 117, 1);
   ;
   --title-text-color:#212121;
   --accent-color:#2196F3;
- 
+ --primary-bg-color:#ffffff;
 }
+/* body list */
 body {
   background: #fff;
   color:var(--primary-text-color);
@@ -14,11 +21,7 @@ ul {
   list-style: none;
 }
 
-/* цвет основного текста  #212121;
-*/
-/* вторичный цвет текста * #757575/
-/* белый # #ffffff */
-/* акцент 2196F3 */
+/* head pg */ 
 .logo {
   color:var(--title-text-color);
 }
@@ -30,6 +33,7 @@ color: var(--accent-color);
   color: #2196F3;
 }
 
+
 .site-nav a:hover,
 .site-nav a:focus {
   color:var(--title-text-color);
@@ -37,6 +41,7 @@ color: var(--accent-color);
 .inform a{
   color: #2196F3;
 }
+/* adress*/ 
 .inform a:hover,
 .inform a:focus {
   color:var(--title-text-color);
@@ -44,6 +49,7 @@ color: var(--accent-color);
 .section-title{
   color:var(--title-text-color);
 }
+
 /* feature */
 .feature .section-title {
   color:var(--title-text-color);
