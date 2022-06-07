@@ -44,7 +44,7 @@ a {
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.1;
+  line-height: 1.19;
   color: var(--main-text-color);
 }
 
@@ -54,14 +54,14 @@ a {
 
 .link-current {
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color:var(--accent-color);
 }
 
 .site-nav-link {
   font-weight: 500;
-  line-height: 1.1;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
 }
