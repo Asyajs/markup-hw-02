@@ -27,10 +27,7 @@ body {
 
 /* top line bg */
 .page-header {
-  width: 1600px;
-  height: 80px;
-  left: 0px;
-  top: 0px;
+background-color: var(--main-bg-color);
 }
 
 ul {
@@ -39,4 +36,54 @@ ul {
 
 a {
   text-decoration: none;
+}
+
+.logo {
+  font-family: Raleway;
+  text-decoration: none;
+  color: var(--main-text-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+.link-current {
+  color:var(--accent-color);
+}
+
+.site-nav-link {
+  color: var(--main-text-color);
+}
+
+.site-nav-link:hover {
+  color: var(--accent-color);
+}
+
+.inform-link {
+color: var( --secondary-text-color);
+}
+
+.inform-link:hover {
+  color: var(--accent-color);
+}
+
+.main-section {
+  background-color: var(--footer-bg-color);
+}
+
+.section-name {
+  font-weight: 900;
+  font-size: 44px;
+  line-height:1.36;
+  color: var(--main-bg-color);
+}
+
+button {
+background: var(--accent-color);
+color: var(--main-bg-color);
+}
+
+.section-title {
+
 }
