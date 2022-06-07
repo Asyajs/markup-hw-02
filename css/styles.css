@@ -101,7 +101,9 @@ line-height: 1.16;
 text-align: center;
 color: var(--main-text-color);
 }
-
+.section-team {
+  background-color: var(--secondary-bg-color);
+}
 .section-footer {
   font-weight: 700;
   font-size: 36px;
@@ -135,8 +137,10 @@ background-color: var(--footer-bg-color);
 
 .address-footer {
   color: var(--main-bg-color);
+  font-style: normal;
 }
 
 .address-contact {
   color: var(--secondary-text-color);
+  font-style: normal;
 }
