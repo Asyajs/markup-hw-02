@@ -81,16 +81,17 @@ color: var( --secondary-text-color);
 button {
 background: var(--accent-color);
 color: var(--main-bg-color);
+cursor: pointer;
 }
 
 .section-title {
   line-height:1.14;
   letter-spacing: 0.03em;
-  color:var(--main-text-color)
+  color:var(--main-text-color);
 }
 
 .section-small {
-color: var(--secondary-text-color)
+color: var(--secondary-text-color);
 }
 
 .section-progect {
@@ -98,7 +99,7 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.16;
 text-align: center;
-color: var(--main-text-color)
+color: var(--main-text-color);
 }
 
 .section-footer {
@@ -106,7 +107,7 @@ color: var(--main-text-color)
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 
 .section-roll {
@@ -120,7 +121,22 @@ line-height: 1.18;
   font-size: 16px;
   line-height: 1.18;
 }
+
 /*footer*/
+.logo-footer {
+    color: var(--accent-color);
+}
+.footer-logo {
+  color: #ffffff;
+}
 .footer-list {
-  background-color:var(--footer-bg-color)
+background-color: var(--footer-bg-color);
+}
+
+.address-footer {
+  color: var(--main-bg-color);
+}
+
+.address-contact {
+  color: var(--secondary-text-color);
 }
